@@ -1,14 +1,20 @@
 # FLOPPYKEY
 
-Système d'authentification rétro-futuriste basé sur disquette.
+FLOPPYKEY est un système d'authentification rétro-futuriste utilisant une disquette 3,5 pouces comme clé physique de connexion.
 
-## Composants
+## Architecture
 
-- FLOPPYBRIDGE
-- FLOPPYVAULT
-- FLOPPYDIAG
-- FLOPPYGUARD
+- FLOPPYKEY (Disquette)
+- FLOPPYBRIDGE (Client PC)
+- FLOPPYVAULT (Serveur Raspberry Pi)
+- FLOPPYDIAG (Diagnostic)
+- FLOPPYGUARD (Sécurité)
 
-## État
+## Technologies
 
-Version : 0.1
+- Python
+- SQLite
+- FastAPI
+- Raspberry Pi Zero W
+- OpenPyXL
+- Cryptography
